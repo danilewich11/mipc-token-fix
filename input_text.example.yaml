@@ -1,0 +1,8 @@
+# Optional. Only needed if you set HA_TOKEN in refresh_mipc.env.
+# Add to configuration.yaml (or create the helper in the UI:
+# Settings -> Devices & services -> Helpers -> Text).
+# Note: input_text values are limited to 255 characters max.
+input_text:
+  mipc_stream_url:
+    name: MIPC stream URL
+    max: 255
