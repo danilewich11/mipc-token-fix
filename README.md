@@ -1,4 +1,6 @@
-# MIPC camera to go2rtc bridge for Home Assistant
+# Stable RTSP stream URL from MIPC
+
+##In this repository I show how I fixed the issue with expiring RTSP URLs from MIPC cameras.
 
 I have a cheap Chinese camera that works with the MIPC app. The only way to get a live stream out of it locally is an `rtmp://<camera-ip>:7010/live/<token>` URL, and that token doesn't last. A URL that works once stops working a few minutes later, or as soon as the session that used it is closed. Pasting it into Scrypted, VLC or an NVR gives you a picture for a moment and then nothing.
 
